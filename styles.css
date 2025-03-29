@@ -1,0 +1,90 @@
+/* css styles */
+
+/* General styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+/* Navbar styles */
+.navbar {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 0.5rem 1rem;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.nav-link {
+  font-weight: 500;
+  margin: 0 0.5rem;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #007bff !important;
+}
+
+/* Footer styles */
+footer {
+  padding: 2rem 0;
+  margin-top: 3rem;
+  background-color: #f8f9fa;
+  border-top: 1px solid #e9ecef;
+}
+
+footer a {
+  color: #6c757d;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: #007bff;
+  text-decoration: underline;
+}
+
+footer .bi {
+  font-size: 1.2rem;
+  margin: 0 0.5rem;
+}
+
+/* Blog styles */
+.quarto-listing-category {
+  font-weight: 500;
+  background-color: #f0f0f0;
+  border-radius: 4px;
+  padding: 0.2rem 0.5rem;
+  margin-right: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.listing-description {
+  color: #6c757d;
+  margin-bottom: 1rem;
+}
+
+.listing-date {
+  font-size: 0.9rem;
+  color: #6c757d;
+}
+
+.listing-title {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+/* Responsive images */
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
